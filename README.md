@@ -3,7 +3,9 @@ squid3-ssl
 
 squid cache ssl dynamic content
 
-- apt-get install libnetfilter-conntrack3 libltdl7 php5-cli php5 libdb4.8
+- install dependency 
+
+apt-get install libnetfilter-conntrack3 libltdl7 php5-cli php5 libdb4.8 openssl libcap2
 
 - for debian wheezy, download libdb4.8 
 
