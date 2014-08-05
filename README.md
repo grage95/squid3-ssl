@@ -12,6 +12,7 @@ wget http://http.us.debian.org/debian/pool/main/d/db4.8/libdb4.8_4.8.30-2_amd64.
 dpkg -i libdb4.8_4.8.30-2_amd64.deb
 
 - change  date.timezone php.ini with sed, example :
+
 sed -i 's/;date.timezone =/date.timezone = Asia\/Jakarta/g' /etc/php5/cli/php.ini
 
 - create ssl database :
