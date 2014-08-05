@@ -18,4 +18,5 @@ dpkg -i libdb4.8_4.8.30-2_amd64.deb
 sed -i 's/;date.timezone =/date.timezone = Asia\/Jakarta/g' /etc/php5/cli/php.ini
 
 - create ssl database :
+
 /usr/lib/squid3/ssl_crtd -c -s /etc/squid3/ssl_db
